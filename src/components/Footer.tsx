@@ -7,9 +7,11 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="w-6 h-6 rounded bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">R</span>
-            </div>
+            <img
+              src="/logo_no_background.png"
+              alt="Resho Automation"
+              className="w-6 h-6"
+            />
             <span className="font-medium text-foreground">Resho Automation</span>
           </div>
           
