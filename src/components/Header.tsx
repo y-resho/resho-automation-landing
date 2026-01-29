@@ -12,7 +12,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
             <img
-              src="/logo_no_background.png"
+              src={`${import.meta.env.BASE_URL}logo_no_background.png`}
               alt="Resho Automation"
               className="w-8 h-8"
             />

@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <img
-              src="/logo_no_background.png"
+              src={`${import.meta.env.BASE_URL}logo_no_background.png`}
               alt="Resho Automation"
               className="w-6 h-6"
             />
