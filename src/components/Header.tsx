@@ -14,7 +14,7 @@ const Header = () => {
             <img
               src={`${import.meta.env.BASE_URL}logo_no_background.png`}
               alt="Resho Automation"
-              className="w-8 h-8"
+              className="w-12 h-12"
             />
             <span className="font-semibold text-lg text-foreground">Resho Automation</span>
           </div>

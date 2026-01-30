@@ -10,7 +10,7 @@ const Footer = () => {
             <img
               src={`${import.meta.env.BASE_URL}logo_no_background.png`}
               alt="Resho Automation"
-              className="w-6 h-6"
+              className="w-8 h-8"
             />
             <span className="font-medium text-foreground">Resho Automation</span>
           </div>
